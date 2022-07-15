@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .div1 {
+            width: 400px;
+            height: 400px;
+            border: 2px solid black;
+            /* overflow: hidden; */
+            overflow: scroll;
+            /* overflow-y: scroll; */
+            overflow-x: hidden;
+        }
+
+        .div2 {
+            margin-top: 10px;
+            width: 400px;
+            border: 2px solid black;
+
+        }
+
+        .div2 p {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quibusdam aut dicta harum animi odit odio
+                nihil sed, laboriosam quis laudantium officia vel accusantium quos nemo dolorem vero quas, libero
+                impedit in cupiditate. Quidem asperiores aliquam et maxime, aperiam culpa. Doloribus temporibus eum
+                iure, accusantium laudantium animi itaque dolor repellat ullam illo eaque quam tempore autem error vitae
+                dolorum libero omnis recusandae enim cum earum maiores tenetur aliquam deserunt? Sapiente maxime ullam
+                quisquam laboriosam nulla repudiandae excepturi temporibus earum. Officiis labore a necessitatibus
+                assumenda impedit asperiores adipisci doloribus atque repellat praesentium nemo soluta perferendis, illo
+                quisquam, eos, cupiditate provident cumque! Dolor perspiciatis veritatis, iste praesentium explicabo
+                enim harum minima omnis expedita architecto, nesciunt suscipit sed mollitia. Beatae dolore nostrum quam
+                fugiat itaque! Ratione fugit debitis error tempore quia, eum doloribus iure delectus magni dolore
+                quisquam nobis cum corporis cupiditate soluta quaerat aliquam quod ex nemo. Animi nisi, ea ad asperiores
+                tenetur, praesentium aliquam possimus iusto alias ex atque libero voluptatum illo ipsam, esse voluptate
+                quod molestiae et debitis placeat similique aspernatur doloribus voluptates perspiciatis. Voluptates
+                quaerat aspernatur, perferendis optio hic omnis asperiores officia. Reiciendis, harum voluptas,
+                consequuntur earum aliquam ad vero non cum sit ex illo eligendi numquam laborum autem. Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Nisi, quibusdam aut dicta harum animi odit odio
+                nihil sed, laboriosam quis laudantium officia vel accusantium quos nemo dolorem vero quas, libero
+                impedit in cupiditate. Quidem asperiores aliquam et maxime, aperiam culpa. Doloribus temporibus eum
+                iure, accusantium laudantium animi itaque dolor repellat ullam illo eaque quam tempore autem error vitae
+                dolorum libero omnis recusandae enim cum earum maiores tenetur aliquam deserunt? Sapiente maxime ullam
+                quisquam laboriosam nulla repudiandae excepturi temporibus earum. Officiis labore a necessitatibus
+                assumenda impedit asperiores adipisci doloribus atque repellat praesentium nemo soluta perferendis, illo
+                quisquam, eos, cupiditate provident cumque! Dolor perspiciatis veritatis, iste praesentium explicabo
+                enim harum minima omnis expedita architecto, nesciunt suscipit sed mollitia. Beatae dolore nostrum quam
+                fugiat itaque! Ratione fugit debitis error tempore quia, eum doloribus iure delectus magni dolore
+                quisquam nobis cum corporis cupiditate soluta quaerat aliquam quod ex nemo. Animi nisi, ea ad asperiores
+                tenetur, praesentium aliquam possimus iusto alias ex atque libero voluptatum illo ipsam, esse voluptate
+                quod molestiae et debitis placeat similique aspernatur doloribus voluptates perspiciatis. Voluptates
+                quaerat aspernatur, perferendis optio hic omnis asperiores officia. Reiciendis, harum voluptas,
+                consequuntur earum aliquam ad vero non cum sit ex illo eligendi numquam laborum autem.</p>
+        </div>
+
+        <div class="div2">
+            <p title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet aut quisquam!">Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit. Ab amet aut quisquam!</p>
+        </div>
+    </main>
+</body>
+
+</html>
